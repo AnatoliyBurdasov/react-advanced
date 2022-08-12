@@ -16,7 +16,4 @@ export const store = configureStore({
 setupListeners(store.dispatch);
 
 export type RootState = ReturnType<typeof store.getState>;
-/*RootState таким образом я создаю кастомные типы для того что бы я понимал с какими данными я работаю в store*/
 
-console.log(githubApi.reducerPath);
-console.log(githubApi.reducer);
